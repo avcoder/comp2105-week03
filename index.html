@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>WebSlides: Making HTML presentations easy</title>
+  <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+
+  <!-- URL CANONICAL -->
+  <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+    rel="stylesheet">
+
+  <!-- CSS WebSlides -->
+  <link rel="stylesheet" type='text/css' media='all' href="././static/css/webslides.css">
+
+  <!-- Optional - CSS SVG Icons (Font Awesome) -->
+  <link rel="stylesheet" type='text/css' media='all' href="./static/css/svg-icons.css">
+
+  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="http://your-url.com/">
+  <!-- YOUR URL -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="WebSlides — Making HTML Presentations Easy">
+  <!-- EDIT -->
+  <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma.">
+  <!-- EDIT -->
+  <meta property="og:updated_time" content="2017-01-04T17:20:50">
+  <!-- EDIT -->
+  <meta property="og:image" content="./static/images/share-webslides.jpg">
+  <!-- EDIT -->
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@webslides">
+  <!-- EDIT -->
+  <meta name="twitter:creator" content="@jlantunez">
+  <!-- EDIT -->
+  <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy">
+  <!-- EDIT -->
+  <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use.">
+  <!-- EDIT -->
+  <meta name="twitter:image" content="./static/images/share-webslides.jpg">
+  <!-- EDIT -->
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="./static/images/favicons/favicon.png">
+  <link rel="shortcut icon" sizes="32x32" href="./static/images/favicons/favicon-32.png">
+  <link rel="apple-touch-icon icon" sizes="76x76" href="./static/images/favicons/favicon-76.png">
+  <link rel="apple-touch-icon icon" sizes="120x120" href="./static/images/favicons/favicon-120.png">
+  <link rel="apple-touch-icon icon" sizes="152x152" href="./static/images/favicons/favicon-152.png">
+  <link rel="apple-touch-icon icon" sizes="180x180" href="./static/images/favicons/favicon-180.png">
+  <link rel="apple-touch-icon icon" sizes="192x192" href="./static/images/favicons/favicon-192.png">
+
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333333">
+
+</head>
+
+<body>
+  <header role="banner">
+    <nav role="navigation">
+      <p class="logo">
+        <a href="week01.html" title="WebSlides">WebSlides</a>
+      </p>
+      <ul>
+        <li class="github">
+          <a rel="external" href="https://github.com/avcoder/comp2105-week01" title="Github">
+            <svg class="fa-github">
+              <use xlink:href="#fa-github"></use>
+            </svg>
+            <em>WebSlides</em>
+          </a>
+        </li>
+        <li class="twitter">
+          <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+            <svg class="fa-twitter">
+              <use xlink:href="#fa-twitter"></use>
+            </svg>
+            <em>@WebSlides</em>
+          </a>
+        </li>
+        <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <article id="webslides" class="horizontal">
+      <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+      <section>
+        <!-- Credit: image from unsplash.com -->
+        <span class="background" style="background-image:url('././static/images/splash.jpg'); filter: opacity(.3);"></span>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <h1>
+            <strong>Week 3 - CSS transform</strong>
+          </h1>
+          <p class="text-intro">skew, scale, rotate, translate
+            <br> COMP 2105
+          </p>
+          <p>
+            <a href="https://github.com/avcoder/comp2105-week03" class="button zoomIn" title="Download WebSlides for free">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              Class Notes
+            </a>
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>Scenario of setting and task</h2>
+                <p>Define a persona and a scenario as the subject of a simple user interaction</p>
+              </li>
+              <li>
+                <h2>Prototype UI sequence</h2>
+                <p>Illustrate visually the interaction between the user and the interface, including the suggestion of movement
+                  of components</p>
+              </li>
+              <li>
+                <h2>Storyboard to resolution</h2>
+                <p>Explain using captions each of the steps involved in the scenario
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-black-blue frame">
+
+        <div class="wrap size-50">
+
+          <h4>
+            <a href="https://www.netcracker.com/careers/985355.html?gh_jid=985355&gh_src=l4iq5x1">UI Designer job posting</a>
+          </h4>
+          <img style="width: 1200px;" src="./static/images/uijob.jpg" alt="Sample job posting for UI Designer">
+          <p>Knowing HTML, CSS, JS is nice-to-have, but not necessary for UI Designers.</p>
+        </div>
+
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-black-blue frame">
+
+        <div class="wrap size-50">
+
+          <h4>
+            <a href="https://www.netcracker.com/careers/985355.html?gh_jid=985355&gh_src=l4iq5x1">Google UI/UX Designer Salary</a>
+          </h4>
+          <img style="width: 1200px;" src="./static/images/salary.png" alt="Sample job posting for UI Designer">
+
+        </div>
+
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <p class="text-subtitle">Techniques for Prototyping Interaction</p>
+          <h2>Why Storyboard?</h2>
+          <img src="./static/images/storyboard.jpg" alt="Sample storyboard from https://www.youtube.com/watch?v=12OpiFIF26Y">
+          <p>Storyboards were first used to plan out cartoon animations, then later for film. And now UI design.</p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <blockquote class="text-quote">
+            <p>The best way to have a good idea is to have lots of ideas.</p>
+            <p>
+              <br/>
+              <cite>
+                <img class="avatar-56" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/L_Pauling.jpg/220px-L_Pauling.jpg"
+                  alt="Avatar">Linus Pauling - 1954 Nobel Prize winner in Chemistry.
+                <br/>
+                <a href="https://www.youtube.com/watch?v=IyMT91wUO54">The Power of Prototyping</a>
+              </cite>
+            </p>
+          </blockquote>
+          <br/>
+          <p>Pauling's work philosophy is the practice of having multiple alternative ideas / approaches / solution strategies.</p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-80 aligncenter">
+          <h2>
+            <strong>Scenarios and Storyboards</strong>
+          </h2>
+          <br />
+          <blockquote class="text-quote">
+            <p>Storyboards keep the focus on meeting the user's needs and project goals.</p>
+          </blockquote>
+          <div class="bg-white shadow">
+            <ul class="flexblock bg-apple">
+              <li>
+                <h2>Describe user and product behaviour</h2>
+                <p>Let's you describe the behaviour / required interactions in more detail to other people.
+                </p>
+              </li>
+              <li>
+                <h2>Provide an understanding of design viability</h2>
+                <p>By walking through a user's typical interaction with the user interface, you'll get a deeper understanding
+                  of how well your design idea would work in reality.</p>
+              </li>
+              <li>
+                <h2>Cover end-to-end on interaction</h2>
+                <p>Prevents rework later on. For example, if you rush straight from ideation into building a solution, you're
+                  likely to miss out on some important nuances that always shows in an interface when parts of it look like
+                  they were tucked on later.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <p>
+            <cite>
+              <img class="avatar-56" src="https://pbs.twimg.com/profile_images/61118440/uxgrump_line_portrait_bigger.jpg" alt="Avatar">Chris Nodder.
+
+              <a href="https://www.lynda.com/User-Experience-tutorials/Welcome/534423/577466-4.html">
+                UX Design: 5 creating scenarios and storyboards</a>
+            </cite>
+          </p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/mockuptypes1.png" alt="Techniques for specifying interaction for mockups - scenarios.">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-black-blue frame">
+
+        <div class="wrap size-60">
+          <h4>Stories &amp; scenarios using just words</h4>
+          <img style="width: 1200px;" src="./static/images/words.jpg" alt="Techniques for specifying interaction for mockups">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-80 aligncenter">
+          <h2>
+            <strong>Tips when creating Scenarios</strong>
+          </h2>
+          <br />
+          <blockquote class="text-quote">
+            <p>The interface should be determined by the interaction,
+              <br/>rather than the interaction being determined by the interface.</p>
+          </blockquote>
+          <div class="bg-white shadow">
+            <ul class="flexblock bg-apple">
+              <li>
+                <h2>Work in pairs</h2>
+                <p>Since everyone must work with another person, they have to verbalize what the user's actions should be. This
+                  ensures that you write it in a way that other people will understand.
+                </p>
+              </li>
+              <li>
+                <h2>Don't describe interfaces</h2>
+                <p>Describe what the persona's inputs in a generic sense. For example, instead of saying 'Fred uses a dropdown
+                  menu selector in a modal window to choose the correct option then taps the Done button", just say, "Fred
+                  chooses the correct option and moves on"</p>
+              </li>
+              <li>
+                <h2>Act out scenario</h2>
+                <p>Does scenario feel realistic or achievable? Good scenarios should progress naturally.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <p>
+            <cite>
+              <img class="avatar-56" src="https://pbs.twimg.com/profile_images/61118440/uxgrump_line_portrait_bigger.jpg" alt="Avatar">Chris Nodder.
+
+              <a href="https://www.lynda.com/User-Experience-tutorials/Welcome/534423/577466-4.html">
+                UX Design: 5 creating scenarios and storyboards</a>
+            </cite>
+          </p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <div class="wrap">
+          <div class="card-50">
+
+            <figure>
+              <img src="./static/images/designfunnel.png" alt="Design Funnel">
+            </figure>
+            <blockquote class="text-quote">
+              <p>Working in low fidelity saves time and money, and gives you a better chance of ending up with the right design.
+                Jumping to high fidelity too soon can cost you time if you have to restart when a design needs to change
+                direction. Pivoting is easy at low fidelity.</p>
+              <p>
+                <cite>
+                  <a href="https://support.balsamiq.com/tutorials/specifyinginteraction/">Low Fidelity Interaction Design</a>
+                </cite>
+              </p>
+            </blockquote>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black-blue frame">
+
+        <div class="wrap size-50">
+          <p class="text-intro">Scenarios become the point of reference for creating a storyboard,
+            <br/>and subsequently your actual interface. (Coloured dots represents most votes)
+          </p>
+          <img style="width: 1200px;" src="./static/images/scenarios.jpg" alt="Techniques for specifying interaction for mockups">
+
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/mockuptypes2.png" alt="Techniques for specifying interaction for mockups - Storyboarding">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li style="background: #aafaa4">
+                <h2>Scenario of setting and task</h2>
+                <p>Define a persona and a scenario as the subject of a simple user interaction</p>
+              </li>
+              <li>
+                <h2>Prototype UI sequence</h2>
+                <p>Illustrate visually the interaction between the user and the interface, including the suggestion of movement
+                  of components</p>
+              </li>
+              <li>
+                <h2>Storyboard to resolution</h2>
+                <p>Explain using captions each of the steps involved in the scenario
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>One of the easiest mistakes you make in interface design, is to focus on the user interface before you focus
+              on the task.
+
+              <p>Storyboarding isn't about "I can't draw" / "pretty pictures" ...it's all about communicating ideas.</p>
+              <p>It has a holistic focus that emphasizes how an interface accomplishes a task.</p>
+
+              <p>
+                <cite>
+                  <img class="avatar-56" src="https://pbs.twimg.com/profile_images/755991959244713984/nO8VFLhS_bigger.jpg" alt="Avatar">Scott Klemmer.
+                  <br/>
+                  <a href="https://www.youtube.com/watch?v=z4glsttyxw8">Storyboards, Paper Prototypes, and Mockups</a>
+                </cite>
+              </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/starppl.jpg" alt="Drawing star people when prototyping.">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="././static/images/st2.jpg" alt="Storyboard: setting">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                <a href="http://spark-public.s3.amazonaws.com/hci/assignment_ressources/assignment3_storyboard_notes.pdf">Storyboards should convey:</a>
+                <br/>
+                <strong>Setting</strong>
+              </h2>
+              <br/>
+              <p class="text-intro"> Who are the
+                <strong>people</strong> involved?
+                <br/> What's the environment?
+                <br/> What task are they trying to accomplish?</p>
+              <p>The actual details of where the buttons go and the exact interaction isn't being shown at the storyboard level.
+                Rather, storyboards help you figure out "Is this the right idea? Does this solve a problem? Does this meet
+                a user need? Is it sticky?" </p>
+            </div>
+
+          </div>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="././static/images/st1.jpg" alt="Storyboard: setting">
+
+            </figure>
+            <div class="flex-content">
+              <h2>
+                <a href="http://spark-public.s3.amazonaws.com/hci/assignment_ressources/assignment3_storyboard_notes.pdf">Storyboards should convey:</a>
+                <br/>
+                <strong>Sequence</strong>
+              </h2>
+              <br/>
+              <p class="text-intro"> What steps are involved from the setting using your design?
+                <br/> What leads someone to use the app?
+                <br/> What's the task and how does it unfold?</p>
+              <p>A storyboard takes you from the setting, through sequence, to satisfaction.</p>
+            </div>
+
+          </div>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="././static/images/st3.jpg" alt="Storyboard: setting">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                <a href="http://spark-public.s3.amazonaws.com/hci/assignment_ressources/assignment3_storyboard_notes.pdf">Storyboards should convey:</a>
+                <br/>
+                <strong>Satisfaction</strong>
+              </h2>
+              <br/>
+              <p class="text-intro"> What motivates people to use this system?
+                <br/> What does it enable people to accomplish?
+                <br/> What need does the system fill?
+              </p>
+              <p>Storyboarding avoids commitment to a particular user interface; no buttons yet. Helps stakeholders get on the
+                same page in terms of goals.</p>
+            </div>
+          </div>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-80 aligncenter">
+          <h2>
+            <strong>Tips when creating Storyboards</strong>
+          </h2>
+          <br />
+          <blockquote class="text-quote">
+            <p>Early feedback is much cheaper than writing the wrong code. Writing things down as scenarios, then visualizing
+              them with storyboards, lets you find issues before you've invested in interface development.</p>
+          </blockquote>
+          <div class="bg-white shadow">
+            <ul class="flexblock bg-apple">
+              <li>
+                <h2>Only display images that move the story forward</h2>
+                <p>For example, a change in scene or if you need to show a specific piece of info. But don't worry about showing
+                  interim states or getting bogged down in minute details.
+                </p>
+              </li>
+              <li>
+                <h2>Express tone of interaction</h2>
+                <p>You aren't designing user interfaces in these storyboards. Rather, highlight certain parts of the interaction
+                  that are essential for telling the story.</p>
+              </li>
+              <li>
+                <h2>Hand-drawn vs. computer templates</h2>
+                <p>Since you'll be reusing template images, it might make sense to use Powerpoint or Keynote to build story
+                  panels. Or you may like the feel of hand-drawn storyboard better.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <p>
+            <cite>
+              <img class="avatar-56" src="https://pbs.twimg.com/profile_images/61118440/uxgrump_line_portrait_bigger.jpg" alt="Avatar">Chris Nodder.
+
+              <a href="https://www.lynda.com/User-Experience-tutorials/Welcome/534423/577466-4.html">
+                UX Design: 5 creating scenarios and storyboards</a>
+            </cite>
+          </p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Once you've figured out what task you want to solve, it's time to think through the interface to solve it. Don't
+              jump to code yet (it might make you psychologically committed to the particular thing you coded)</p>
+            <p>Most valuable lesson:
+              <strong>You can rapidly prototype things on paper</strong>
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/755991959244713984/nO8VFLhS_bigger.jpg" alt="Avatar">Scott Klemmer.
+                <br/>
+                <a href="https://www.youtube.com/watch?v=IyMT91wUO54">The Power of Prototyping</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/mockuptypes3.png" alt="Techniques for specifying interaction for mockups - click through prototypes">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>Scenario of setting and task</h2>
+                <p>Define a persona and a scenario as the subject of a simple user interaction</p>
+              </li>
+              <li style="background: #aafaa4">
+                <h2>Prototype UI sequence</h2>
+                <p>Illustrate visually the interaction between the user and the interface, including the suggestion of movement
+                  of components</p>
+              </li>
+              <li>
+                <h2>Storyboard to resolution</h2>
+                <p>Explain using captions each of the steps involved in the scenario
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <p class="text-subtitle">Techniques for Prototyping Interaction</p>
+          <h2>Why Paper Prototype?</h2>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-80 aligncenter">
+          <h2>
+            <strong>Paper prototyping</strong>
+          </h2>
+          <br />
+          <blockquote class="text-quote">
+            <p>If you're a designer, you may be tempted to skip this step and go straight to wireframing tools, such as Balsamiq,
+              or even to go straight to realistic UI designs using Photoshop...That would be a mistake.</p>
+          </blockquote>
+          <div class="bg-white shadow">
+            <ul class="flexblock bg-apple">
+              <li>
+                <h2>Fast</h2>
+                <p>It's a fast way to layout design prototypes because it's easy to rearrange items on a page rather than having
+                  to redraw the whole screen.
+                </p>
+              </li>
+              <li>
+                <h2>Cheap</h2>
+                <p>It uses commonly accessible resources such as pen, paper, markers, scissors, sticky notes.</p>
+              </li>
+              <li>
+                <h2>Given honest feedback </h2>
+                <p> Since it looks like the interface was made by kindergartners, you'll usually get more honest feedback. In
+                  contrast, when you show them a pixel-perfect screen comp, they may not want to hurt your feelings.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <p>
+            <cite>
+              <img class="avatar-56" src="https://pbs.twimg.com/profile_images/61118440/uxgrump_line_portrait_bigger.jpg" alt="Avatar">Chris Nodder.
+
+              <a href="https://www.lynda.com/User-Experience-tutorials/Benefits-paper-prototyping/534422/577192-4.html">
+                UX Design: 6 Paper Prototyping</a>
+            </cite>
+          </p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <div class="wrap">
+          <div class="card-50">
+
+            <figure>
+              <img src="./static/images/mice.jpg" alt="IDEO's first prototypes of the mouse for Microsoft">
+            </figure>
+            <blockquote class="text-quote">
+              <p>100s of different prototypes that IDEO produced for Microsoft, when it was creating its first mouse.</p>
+              <p>Which design was the best for MS to release? symmetric vs asymmetric, ergonomics vs style</p>
+              <p>Being able to see all alternatives and hold it in hand helped Microsoft figure out which one was best.</p>
+              <p>
+                <cite>
+                  <a href="https://www.youtube.com/watch?v=IyMT91wUO54">The Power of Prototyping</a>
+                </cite>
+              </p>
+            </blockquote>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/paperprototype.jpg" alt="Drawing star people when prototyping.">
+        </div>
+        <br/>
+        <p>
+          <cite>
+            <img class="avatar-56" src="https://pbs.twimg.com/profile_images/755991959244713984/nO8VFLhS_bigger.jpg" alt="Avatar">Scott Klemmer.
+
+            <a href="https://www.youtube.com/watch?v=12OpiFIF26Y">
+              <i>Lyfalyze team in</i> Storyboards, Paper Prototypes, and Mockups</a>
+          </cite>
+        </p>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h3>
+              Paper Prototyping
+            </h3>
+            <p>
+              <a href="https://www.youtube.com/watch?v=12OpiFIF26Y#t=5m45s">Forward to 5:45</a>
+            </p>
+
+
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <!-- <div class="embed"> = Responsive -->
+            <div class="embed">
+              <div data-youtube data-youtube-id="12OpiFIF26Y" data-autoplay controls></div>
+            </div>
+            <!-- end .embed -->
+          </div>
+          <!-- end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Early in the design process, you want to maximize the amount of learning that you're able to gain from prototyping,
+              and minimize amount of time to create it. ...it's no point spending a lot of time on prototypes you might soon
+              throw away</p>
+            <p>Focus on goals, get feedback, evolve the designs</p>
+            <p>What might it look like? What might it work like? What might the experience be like?</p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/755991959244713984/nO8VFLhS_bigger.jpg" alt="Avatar">Scott Klemmer.
+                <br/>
+                <a href="https://www.youtube.com/watch?v=IyMT91wUO54">The Power of Prototyping</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-80 aligncenter">
+          <h2>
+            <strong>Tips when creating Paper prototypes</strong>
+          </h2>
+          <br />
+          <blockquote class="text-quote">
+            <p>User testing the paper prototype will reveal whether you've truly met your user's needs...any team who strays
+              from these initial designs because they think they know better tends to have issues with user acceptance of
+              their products.</p>
+          </blockquote>
+          <div class="bg-white shadow">
+            <ul class="flexblock bg-apple">
+              <li>
+                <h2>Only build exactly what you need</h2>
+                <p>It's easy to add things later. It's much harder to take them away. Each extra thing you add has the potential
+                  to distract users from their core task.
+                </p>
+              </li>
+              <li>
+                <h2>Create suitable text for your prototypes</h2>
+                <p>The text you use can help or hinder users in their understanding of the interaction. You're testing the text
+                  as much as you are the other interface components. Using Lorem Ipsum text, or wavy lines, wont' help you.</p>
+              </li>
+              <li>
+                <h2>Use a separate piece of paper to make each interface element</h2>
+                <p>You may want to rearrange things on the screen later which can only happen if you've made each element separately.</p>
+              </li>
+            </ul>
+          </div>
+          <br/>
+          <p>
+            <cite>
+              <img class="avatar-56" src="https://pbs.twimg.com/profile_images/61118440/uxgrump_line_portrait_bigger.jpg" alt="Avatar">Chris Nodder.
+
+              <a href="https://www.lynda.com/User-Experience-tutorials/Next-steps/534422/577203-4.html">
+                UX Design: 6 Paper prototyping</a>
+            </cite>
+          </p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Rethinking
+              <a href="https://pinterest.com">Pinterest's</a> login forms</h2>
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <p>Brainstorm how we can make these 3 separate forms into 1 fluid animated experience</p>
+          </div>
+          <!-- end .content-left -->
+          <ul class="flexblock">
+            <li>
+              <div>
+                <img src="./static/images/pinsignup.png" alt="sign up">
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./static/images/pinlogin.png" alt="sign in">
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./static/images/pinreset.png" alt="forgot password">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-50">
+
+          <h4>
+            Paper prototype of UI using storyboard boxes
+          </h4>
+          <img style="width: 1200px;" src="./static/images/onpaper.jpg" alt="Sample job posting for UI Designer">
+        </div>
+
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="content-left">
+            <h3>
+              <a href="https://www.youtube.com/watch?v=flUXlVQk5wA">Pop app</a>
+            </h3>
+            <p>A tool that can stitch together photos of your paper prototypes via linking "buttons" to other photos, thus creating
+              a seamless experience</p>
+
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <!-- <div class="embed"> = Responsive -->
+            <div class="embed">
+              <div data-youtube data-youtube-id="flUXlVQk5wA" data-autoplay data-no-controls></div>
+            </div>
+            <!-- end .embed -->
+          </div>
+          <!-- end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <img src="./static/images/pop.png" alt="Pop app" style="width: 400px;">
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                Demo Pop app.
+              </h3>
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="./static/images/mockuptypes4.png" alt="Techniques for specifying interaction for mockups - scenarios.">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <p data-height="500" data-theme-id="dark" data-slug-hash="bgwEPa" data-default-tab="result" data-user="IanHazelton" data-embed-version="2"
+                data-pen-title="Sign-in/up/reset UI form" class="codepen">See the Pen
+                <a href="https://codepen.io/IanHazelton/pen/bgwEPa/">Sign-in/up/reset UI form</a> by Ian Hazelton (
+                <a href="https://codepen.io/IanHazelton">@IanHazelton</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                High-fidelity, coded prototype
+              </h3>
+
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Do Discussion 2
+          </h1>
+          <p>
+            <a href="https://gc.blackboard.com">Login to Blackboard</a>
+          </p>
+          <p>Select a service or software package that allows a user to quickly and easily develop a storyboard / wireframe
+            for prototyping simple user interfaces and components.
+          </p>
+          <p> Create a new thread, and in 2-3 sentences, explain why this is a great product and what the benefits are. Comment
+            on at least one of your peer's threads.
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-secondary">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 frame">
+          <h2 class="text-serif aligncenter">
+            Discussion 2 + Break
+            <br/> (15 mins) + (15 mins)
+            <br/>= 30 mins
+          </h2>
+          <p class="aligncenter">
+            <a href="http://avillaruz.computerstudi.es/comp2105/index.html">Start timer</a>
+          </p>
+          <p class="text-symbols">* * *</p>
+          <h4>Did you know?</h4>
+
+          <ul>
+            <li>As of yesterday, Cody Lindley (you know--that guy who maintains
+              <a href="https://frontendmasters.gitbooks.io/front-end-developer-handbook-2018/" style="text-decoration:underline;">front-end developer handbook</a>) has written his annual recap and predictions</li>
+            <li>
+              <a href="https://frontendmasters.gitbooks.io/front-end-developer-handbook-2018/content/recap.html" style="text-decoration:underline;">Recap of front-end development in 2017</a>
+            </li>
+            <li>
+              <a href="https://frontendmasters.gitbooks.io/front-end-developer-handbook-2018/content/2018.html" style="text-decoration:underline;">Predictions: in 2018 expect...</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>Scenario of setting and task</h2>
+                <p>Define a persona and a scenario as the subject of a simple user interaction</p>
+              </li>
+              <li>
+                <h2>Prototype UI sequence</h2>
+                <p>Illustrate visually the interaction between the user and the interface, including the suggestion of movement
+                  of components</p>
+              </li>
+              <li style="background: #aafaa4">
+                <h2>Storyboard to resolution</h2>
+                <p>Explain using captions each of the steps involved in the scenario
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="content-left">
+            <h3>
+              <a href="https://www.youtube.com/watch?v=fk-2NSaUJxg">Storyboarding in Powerpoint</a>
+            </h3>
+            <p>18 minute video of Scott McCrindle using Powerpoint to illustrate some interaction storyboarding</p>
+
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <!-- <div class="embed"> = Responsive -->
+            <div class="embed">
+              <div data-youtube data-youtube-id="fk-2NSaUJxg" data-autoplay controls></div>
+            </div>
+            <!-- end .embed -->
+          </div>
+          <!-- end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-black-blue frame">
+        <div class="wrap size-70">
+          <img style="width: 1200px;" src="././static/images/ssmith1.jpg" alt="Drawing star people when prototyping.">
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="content-left">
+            <h3>
+              <a href="https://www.youtube.com/watch?v=e-z_k7QlgKQ">Figma</a>
+            </h3>
+            <p>Intro to Figma</p>
+
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <!-- <div class="embed"> = Responsive -->
+            <div class="embed">
+              <div data-youtube data-youtube-id="e-z_k7QlgKQ" data-autoplay controls></div>
+            </div>
+            <!-- end .embed -->
+          </div>
+          <!-- end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>Summary:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                You've gained some experience thinking through each part of an animated interactive widget or element using not much more
+                than a pencil and paper. You really don't need fancy software for this type of work.
+              </li>
+              <li>You've spent valuable time thinking through how the user will interact with the widget and how it might enhance
+                the user experience.</li>
+              <li>Often with motion graphics and user interfaces, less is more. Be subtle. </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Do In-class Exercise 2
+          </h1>
+          <p>
+            <a href="https://gc.blackboard.com">Login to Blackboard</a>
+          </p>
+          <p>Choose from a list of three different possible scenarios, and storyboard the interaction and motion graphics either
+            with a pencil and paper or a suitable piece of software. Your instructor will provide storyboarding forms if
+            you need
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-secondary">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 frame">
+          <h2 class="text-serif aligncenter">
+            In-class Exercise 2
+          </h2>
+          <p class="aligncenter">
+            <a href="http://avillaruz.computerstudi.es/comp2105/index.html">Start timer</a>
+          </p>
+          <p class="text-symbols">* * *</p>
+          <h4>Did you know?</h4>
+
+          <ul>
+            <li>Published as of yesterday:
+              <a href="https://www.creativebloq.com/features/best-tools-for-web-developers" style="text-decoration:underline;">50 amazing tools for developers 2018</a>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <!-- .wrap = container (width: 90%) -->
+        <div class="wrap">
+          <h2 class="alignleft">
+            <strong>References</strong>
+          </h2>
+
+
+        </div>
+        <ol>
+          <li>https://support.balsamiq.com/tutorials/specifyinginteraction/</li>
+          <li>https://www.youtube.com/watch?v=z4glsttyxw8 - Storyboards, Paper Prototypes, and Mockups | HCI</li>
+          <li>https://www.youtube.com/watch?v=12OpiFIF26Y - Storyboards, Paper Prototypes, and Mockups | Lecture 3.1</li>
+          <li>https://www.youtube.com/watch?v=flUXlVQk5wA - Pop App Review</li>
+          <li>https://www.youtube.com/watch?v=IyMT91wUO54 - The Power of Prototyping</li>
+          <li>http://spark-public.s3.amazonaws.com/hci/assignment_ressources/assignment3_storyboard_notes.pdf</li>
+          <li>http://lynda.com - UX Design 5 and 6 by Chris Nodder</li>
+
+        </ol>
+
+        <!-- .end .wrap -->
+      </section>
+
+    </article>
+    <!-- end article -->
+  </main>
+  <!-- end main -->
+
+  <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+  <!-- Required -->
+  <script src="././static/js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+
+  <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+  <script defer src="././static/js/svg-icons.js"></script>
+
+</body>
+
+</html>
