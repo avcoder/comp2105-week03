@@ -761,6 +761,9 @@
                 You can add perspective in 2 places: either on the transform statement, or its parent element. Placing it on the parent element
                 is preferred since any additional elements will also have the same perspective.
               </p>
+              <p>This CSS perspective value doesn't affect the element itself, but it affects the transforms of descendent elements
+                3D transforms, allowing them to all have a consistent depth perspective.
+              </p>
             </div>
             <!-- .end .column -->
           </div>
@@ -995,7 +998,12 @@
                 <a href="http://css3please.com/">http://css3please.com/</a>
               </li>
             </ul>
+
           </div>
+          <br/>
+          <br/>
+          <p class="text-intro">When using CSS transforms with browser prefixes, always finish off with the unprefixed version so that when the
+            browser drops support for the prefix, the accepted standard syntax declaration will be picked up</p>
           <!-- .end .bg-white shadow -->
         </div>
         <!-- .end .wrap -->
