@@ -97,3 +97,7 @@
 - 1st example: here the transform has 2
 - 2nd example: has 3
 - try to imagine what will happen before I click it
+
+# Quiz 3
+
+- by forcing you to guess something you don't know that's a good form of deep learning
