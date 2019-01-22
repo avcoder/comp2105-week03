@@ -42,7 +42,7 @@
 # scale
 
 - in 2D, you'll be using 1 of these 4 possibilities
-- So code along, click codepen link and let's try it out
+- So code along, click codepen link, FORK it, and let's try it out
 - 1st example: you tell me does this scale x? y? both?
 - 2nd example: if you want to specify x
 - What do you anticipate this would look like? This should stretch but height should remain same.
@@ -84,3 +84,16 @@
 - let's try changing the point of origin / transform-origin for previous example
 
 # transform-origin codepen
+
+- go into codepen
+- now add in a transform-origin to the bottom left corner
+- try to predict how this will move before I click it
+- it helps to put a border and a transition to see what's really happening
+- encourage you to experiment with different values, like top right etc.
+
+# multiple values
+
+- you can also have multiple values on the same line
+- 1st example: here the transform has 2
+- 2nd example: has 3
+- try to imagine what will happen before I click it
