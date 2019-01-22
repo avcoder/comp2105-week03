@@ -1,6 +1,6 @@
 # Title slide
 
-- Show interview.ueno.co (made with greensock)
+- Play https://flukeout.github.io/
 - CSS transforms - this is the basics of animation
 - transforms, transitions, translate - can be confusing
 
@@ -57,3 +57,30 @@
 # skew
 
 - read it
+- So code along, click codepen link and let's try it out
+- Instead of hovering to trigger, what CSS would you write to make it trigger on click event?
+- one mental model that helps me is that if it's skewX, since X = horizontal, then horizontal lines will stay the same
+- if you took a corner of the shape and pulled it, with point of origin at center, it skews
+
+# translate
+
+- read it
+- I got this example from last year's class (show treefrog.ca)
+- try to emulate this using css transform
+- it won't get us the whole way, there's a few details still missing
+- for translateY what kind of value makes it go up? positive or negative?
+- for translateX what kind of value makes it go right/left?
+
+# rotate
+
+- Challenge: rotate element upon click but use JS click events to toggle a class called 'rotate'
+- once finished: Notice point of origin is in the middle
+- because if the point of origin was shifted to the bottom left corner, and then rotate it, it won't rotate in the middle anymore. We'll get into that in a moment
+
+# transform-origin
+
+- see link
+- notice the values can be px, or keywords, or percentages
+- let's try changing the point of origin / transform-origin for previous example
+
+# transform-origin codepen
