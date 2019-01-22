@@ -124,3 +124,44 @@
 # codepen perspective-origin
 
 - just like in 2d you had transform-origin, in 3d you have perspective-origin
+- read it
+- try changing it to perspective-origin: 50% 100%
+- the animation looks like we're underneath it now
+- try changing it to perspective-origin: 50% 0%
+
+# translate3d()
+
+- if you don't want to use translate3d, you can simply use translateX, Y, Z -- that's equivalent
+- translateZ the pole is "coming out of the screen"
+- shortcut, instead of saying translateX Y Z, you can just say translate3d
+
+# scale3d()
+
+- try changing the scale3d values to 2 for x, y then z
+- scale can stretch or squash
+
+# rotate3d()
+
+- famous example of when this first came out
+- if I toggle shape, then you can see rotate3d in action
+- also you have backface-visibility
+- read it
+
+# transform-style
+
+- read it
+- when you toggle button, it just flattens everything
+
+# vendor prefixes
+
+- I'm assuming you know why and how to use vendor prefixes if you need them
+- autoprefixer css tool: left hand side vs right hand side
+- caniuse
+- i don't think you'd need a lot of vendor prefixes nowadays since most vendors support this
+- cssmaker tool: visualize see changes (scaling, skewing, rotating etc) with GUI, then it gives you code
+- if you do use vendor prefixes, it's the last property where you want to use the future friendly, so once the browser catches up, catch the last one
+
+# Summary
+
+- 1. always remember these are related to transform
+- Next class (use rocket example from treefrog.ca), cubic-bezier for transition timings
