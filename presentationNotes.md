@@ -100,4 +100,27 @@
 
 # Quiz 3
 
+- you'll be able to answer 5 questions for now, you can do the other 5 later
 - by forcing you to guess something you don't know that's a good form of deep learning
+
+# 3d val quote
+
+# 3d
+
+- so just like previously for 2d you had to know the 4 transforms (scale translate skew rotate)
+- in 3d you have to know (read it)
+
+# codepen 3d
+
+- hold paper, y axis is vertical
+- so you must add perspective first
+
+# codepen perspective 100 to 100 in 3s
+
+- so here we have 1000px perspective, then 3 seconds later it moves to 100px perspective
+- Q: which one looks closer to you? 1000px vs 100px?
+- the closer/lower the value, the more closer it seems, the more distorted the effect
+
+# codepen perspective-origin
+
+- just like in 2d you had transform-origin, in 3d you have perspective-origin
